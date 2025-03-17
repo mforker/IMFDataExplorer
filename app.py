@@ -18,7 +18,7 @@ def main():
     st.set_page_config(page_title="IMF Data Mapper", page_icon="🌍", layout="wide")
 
     with st.sidebar:
-        st.title("IMF Data Mapper")
+        st.title("IMF Data Explorer")
         st.write("## Select Data")
         indicators_data = get_indicators()
         # indicators = indicators_data['indicator_name']
