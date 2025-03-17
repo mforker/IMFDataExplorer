@@ -1,6 +1,7 @@
 from utilities.tools import get_indicators, get_countries, get_groups, get_regions, get_data
 import streamlit as st
 import pandas as pd
+import time
 
 
 def main():
@@ -44,6 +45,14 @@ def main():
         #     with st.spinner():
         data = get_data(indicator, country) #add region and group later when you correct it
         st.success("Data fetched successfully!")
+
+        st.markdown("---")
+        st.markdown("## 🧑🏾‍🦱 Mitesh Nandan")
+        st.markdown("Connect with me on LinkedIn:")
+        linkedin_url = "https://www.linkedin.com/in/mitesh-nandan/"
+        git_profile =  "https://github.com/mforker"
+        st.markdown(f"[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)]({linkedin_url})")
+        st.markdown(f"[![GitHub Profile](https://img.shields.io/badge/GitHub-mforker-blue?logo=github)]({git_profile})")
     if data is not None:
         st.write("## Data")
         tab1,tab2 = st.tabs(["Download Raw Data","Data Visualizations"])
@@ -61,10 +70,14 @@ def main():
                 with col1:
                     st.write("#### Download data as CSV file. :point_right: ")
                 with col2:
+                    selected_countries = '_'.join(country)
+                    selected_indicators = '_'.join(indicator)
+                    timestamp = int(time.time())
+                    file_name = f"{selected_countries}_{selected_indicators}_{timestamp}.csv"
                     st.download_button(
                     label="Download CSV",
                     data=csv,
-                    file_name="data.csv",
+                    file_name=file_name,
                     mime="text/csv",
                 )
                 st.dataframe(data)
@@ -73,15 +86,14 @@ def main():
         with tab2:
             st.write("## Plots :chart_with_upwards_trend:")
             try:
-                viz_data = data.loc[:,['Year','Value','Country','Indicator']]
+                viz_data = data.loc[:,['Year','Value','Country','Indicator','Unit']]
                 indicators_in_data = viz_data['Indicator'].unique()
                 for i, ind in enumerate(indicators_in_data):
                     st.write(f"### {indicator[i]} - over time")
-                    
+                    ylabel = f"Value ({viz_data[viz_data['Indicator'] == ind]['Unit'].unique()[0]})"
                     viz = viz_data[viz_data['Indicator'] == ind].loc[:,['Value','Year','Country']]
                     # viz['Year'] = viz['Year'].apply(lambda x: datetime.datetime.strptime(x, '%Y').strftime('%Y'))
-                    
-                    st.line_chart(viz,x='Year',y='Value',color='Country', use_container_width=True)
+                    st.line_chart(viz,x='Year',y='Value',color='Country', use_container_width=True, y_label= ylabel, x_label= 'Year', height=500)
             except AttributeError:
                 st.write('### Nothing to show :worried:')
     else:
