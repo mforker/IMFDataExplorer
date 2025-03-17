@@ -1,0 +1,28 @@
+region_id,region_name
+AFQ,Africa (Region)
+AFRREO,African Regional Economic Outlook
+APQ,Asia and Pacific
+AZQ,Australia and New Zealand
+CAQ,Central Asia and the Caucasus
+CBQ,Caribbean
+CMQ,Central America
+EAQ,East Asia
+EEQ,Eastern Europe 
+EUQ,Europe
+MEQ,Middle East (Region)
+NAQ,North Africa
+NMQ,North America
+PIQ,Pacific Islands 
+SAQ,South Asia
+SEQ,Southeast Asia
+SMQ,South America
+SSQ,Sub-Saharan Africa (Region) 
+WEQ,Western Europe
+WHQ,Western Hemisphere (Region)
+AFR_SSQ,Sub-Saharan Africa (Region) 
+SPR_GD_MECA,Middle East and Central Asia
+SPR_GD_EUR,Europe
+SPR_GD_AFR,Africa
+SPR_GD_CPI,Caribbean and Pacific Islands
+SPR_GD_WHD,Western Hemisphere
+SPR_GD_Asia,Asia

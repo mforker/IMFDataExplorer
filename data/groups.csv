@@ -1,0 +1,130 @@
+group_id,group_name
+ADVEC,Advanced economies
+AEEUEJ,"Adv econ excl US, Euro, Japan"
+AFR,Africa (Analytical)
+AS5,ASEAN-5
+CEE,Central and Eastern Europe
+CEMAC,CEMAC
+CFAFZ,CFA Franc Zone 
+CISM,Commonwealth of Independent States and Mongolia
+COMESA,COMESA (SSA members)
+DA,Emerging and Developing Asia
+EAC,East African Community 
+EAC-5,East African Community 
+EEF,Export earnings: fuel
+EENF,Export earnings: nonfuel
+EU,European Union
+EUR,Europe
+EURO,Euro area
+EUROAREA,Euro area
+FLERRC,Countries without conventional exchange rate pegs
+FRC,Countries in fragile and conflict-affected situations
+FXERRC,Countries with conventional exchange rate pegs
+LIC,Low-income countries
+LL,Landlocked
+MAE,Major advanced economies (G7)
+MAF,Emerging Asia excl Japan incl NIEs
+MCA,EM and dev econ incl sel adv econ
+MDRI,MDRI countries 
+ME,Middle East (Analytical)
+MENA,Middle East and North Africa
+MIC,Middle-income countries
+MIC854,MICs excluding Nigeria and South Africa 
+NO824,Non-oil
+NONC872,Coastal  
+NONRESINT,Non-resource-intensive countires  
+OAE,Other advanced economies
+OEMDC,Emerging market and developing economies
+OEXP,Oil-exporting countries
+OIM808,Oil-importing countries excluding South Africa 
+OIMP,Oil-importing countries 
+OTH,Other Groups
+OXEN853,Oil-exporting countries excluding Nigeria 
+PRGF,Countries eligible for PRGF
+RESINT,Resource-intensive countries  
+SACU,SACU
+SADC,SADC
+SSA,Sub-Saharan Africa
+WAEMU,WAEMU
+WE,Latin America and the Caribbean
+WEOWORLD,World
+FAD_WORLD,World
+FAD_G20,G-20
+FAD_G20Adv,G-20 Advanced
+FAD_G20Emg,G-20 Emerging
+FAD_LIC,Low Income
+LICXF,LICs excluding low income countries in fragile and conflict-affected situations
+SSENS,SSA excluding Nigeria and South Africa 
+FM_EMG,Emerging Market and Middle-Income Economies
+SSXZ,SSA excluding Zimbabwe
+SSXSD,"Sub-Saharan Africa, excluding South Sudan"
+MENAP,"Middle East, North Africa, Afghanistan, and Pakistan"
+ECOWAS,Economic Community of West African States
+BOPWORLD,World
+IIO,International Organizations
+EDE,Emerging and Developing Europe
+FM_LIC,Low-Income Countries
+FM_AdvG20,Advanced G-20
+FM_EMEG20,Emerging G-20
+FM_EMEEU,Emerging and Middle-Income Europe
+FM_EMEAsia,Emerging and Middle-Income Asia
+FM_EMELA,Emerging and Middle-Income Latin America
+FM_EMEME,Emerging and Middle-Income Middle East and North Africa and Pakistan
+FM_LICAsia,Low-Income Developing Asia
+FM_LICLA,Low-Income Developing Latin America
+FM_LICSSA,Low-Income Developing Sub-Saharan Africa
+FM_LICO,Low-Income Developing Others
+FM_LICOP,Low-Income Developing Oil Producers
+FM_LIDC,Low-Income Developing Countries
+CIS,Commonwealth of Independent States
+CFWORLD,World
+ARAWORLD,World
+SPR_HIC,High Income Countries (median)
+SPR_LIDC,Low-Income Developing Countries (median)
+SPR_FLIDC,Frontier LIDCs (median)
+SPR_GD_AM,Advanced Economies
+SPR_GD_LIDC,Low Income Developing Countries
+SPR_GD_EM,Emerging Markets
+gbtier_1,Prominent gender budgeting countries covered in the surveys
+gbtier_2,Other gender budgeting countries covered in the surveys
+gbcasestudy,Identified as gender budgeting country in IMF regional survey
+gb_othersource,Other countries
+GDWORLD,World
+ECCU,Eastern Caribbean Currency Union
+FAD_C1,Catergory I
+FAD_NG20,Non G-20
+FAD_C2,Catergory II
+FAD_OP,Oil Producers
+FAD_NOHIC,Non-Oil High Income
+FAD_NOMIC,Non-Oil Middle Income
+FAD_NOLIC,Non-Oil Low Income
+FAD_C3,Catergory III
+FAD_NOFAST,Non-Oil Fast
+FAD_NOMED,Non-Oil Medium
+FAD_NOSLOW,Non-Oil Slow
+FAD_C4,Catergory IV
+FAD_G7,G-7
+FAD_NG7,None G-7
+FAD_C5,Catergory V
+FAD_EuroArea,Euro Area
+FAD_EMAsia,Emerging Asia
+FAD_OtherAdv,Other Advanced
+FAD_Rest,Rest
+FAD_C6,Catergory VI
+FAD_WHD,Western Hemisphere Group
+FAD_MCD,Middle East and Central Asia Group
+FAD_APD,Asia & Pacific Group
+FAD_AFR,African Group
+FAD_EUR,European Group
+FAD_ADV,Advanced Economies
+FAD_EME,Emerging Market
+FAD_EMD,Emerging and Developing Countries 
+FADGDWORLD,All countries - Global Debt
+MECA,Middle East and Central Asia
+CCWORLD,World
+FR_FCWORLD,All countries - Fiscal Rules & Fiscal Councils
+FR_FC_ADV,Advanced Economies
+FR_FC_EME,Emerging Market and Developing Economies
+FR_FC_EU,European Union
+FR_FC_NonEU,Non European Union
+EME,Emerging market economies
