@@ -1,5 +1,6 @@
 main.py
 test.py
 .venv
+.vrnv
 .vscode
 __pycache__

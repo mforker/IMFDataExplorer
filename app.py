@@ -55,8 +55,8 @@ def main():
         st.markdown(f"[![GitHub Profile](https://img.shields.io/badge/GitHub-mforker-blue?logo=github)]({git_profile})")
     if data is not None:
         st.write("## Data")
-        tab1,tab2 = st.tabs(["Download Raw Data","Data Visualizations"])
-        with tab1:
+        tab1,tab2 = st.tabs(["Data Visualizations","Download Raw Data"])
+        with tab2:
             try:
                 csv = data.to_csv(index=False, encoding = 'utf-8')
                 meta_data = {'Rows': data.shape[0], 'Columns': data.shape[1], 'Column Names': list(data.columns)}
@@ -83,7 +83,7 @@ def main():
                 st.dataframe(data)
             except AttributeError:
                 st.write(data)
-        with tab2:
+        with tab1:
             st.write("## Plots :chart_with_upwards_trend:")
             try:
                 viz_data = data.loc[:,['Year','Value','Country','Indicator','Unit']]
