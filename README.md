@@ -67,8 +67,6 @@ Feel free to fork this repo and submit **pull requests**! Suggestions and improv
 This project is **open-source** under the MIT License.
 
 ---
-
----
 ## Author
 **Mitesh Nandan**
 
